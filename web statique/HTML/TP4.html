@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>TP4</title>
+<style>
+	body {
+            margin: 150px;
+		  }
+	.button-container {
+            text-align: center;
+        }
+</style>
+</head>
+<body>
+<h1 style="text-align: center; color: green;";><u>TP4 :Les Formulaires</u></h1>
+<h2><u>Exercice 1</u></h2>
+<form name="Exercise 1" method="post" action="mailto:loxgaming99@gmail.com">
+<table height="30%" width="80%">
+	<tr>
+		<td><h3>Civilit&eacute </h3></td>
+		<td>
+			<input type="radio" name="choix" value="Mademoiselle"
+> Mademoiselle
+			<input type="radio" name="choix" value="Madame"
+checked> Madame
+			<input type="radio" name="choix" value="Monsieur"
+> Monsieur
+		</td>
+	</tr>
+	<tr>
+		<td><h3>Nom/Pr&eacutenom </h3></td>
+		<td>
+			<input name="zone1" size="60" value=""/>
+		</td>
+	</tr>
+	<tr>
+		<td><h3>Adresse </h3></td>
+		<td>
+			<textarea name="comm" rows=2 cols=40 >
+Rue No
+Bo&icircte Postale
+			</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td><h3>No postal/Localit&eacute </h3></td>
+		<td>
+			<input name="zone1" size="20" value=""/>
+			<input name="zone1" size="40" value="Lausanne"/>
+		</td>
+	</tr>
+	<tr>
+		<td><h3>Pays </h3></td>
+		<td>
+			<select name="Pays">
+				<option selected> Suisse
+				<option> Maroc
+				<option> Chine
+			</select >
+		</td>
+	</tr>
+	<tr>
+		<td><h3>Plateforme(s) </h3></td>
+		<td>
+			<input type="checkbox" name="Plateforme(s)1" value="Windows" checked> Windows
+			<input type="checkbox" name="Plateforme(s)2" value="Macintosh" checked> Macintosh
+			<input type="checkbox" name="Plateforme(s)3" value="Unix"> Unix
+		</td>
+	</tr>
+	<tr>
+		<td><h3>Applications </h3></td>
+		<td>
+			<select name="Applications" size=5 multiple>
+				<option selected> Bureautique
+				<option> DAO
+				<option> Statistiques
+				<option> SGBD
+				<option selected> Internet
+		</td>
+	</tr>
+</table>
+	<div class="button-container">
+            <input type="submit" value="Soumettre le formulaire">
+            <input type="reset" value="Effacer">
+	</div>
+</form>
+<h2><u>Exercice 2</u></h2>
+<marquee behavior="scroll" direction="left"><h3 style="color: blue;";>Bienvenue dans notre ISTA NTIC</h3></marquee>
+<form>
+<table style="width: 100%;">
+  <tr>
+    <td style="text-align: center;">
+      <input type="radio" name="Nv_scolaire" value="Niveau Bac"> <b>Niveau Bac</b>
+      <input type="radio" name="Nv_scolaire" value="Bac" checked> <b>Bac</b>
+      <input type="radio" name="Nv_scolaire" value="Licence"> <b>Licence</b>
+    </td>
+  </tr>
+</table>
+<fieldset>
+	<legend>STAGIAIRE</legend>
+		<table width="100%">
+			<tr>
+		<th>NOM:</th>
+		<td><input type="text" size="40"></td>
+		<th>PRENOM:</th> 
+		<td><input type="text" size="40"></td>
+		<th>DATE DE NAISSANCE:</th> 
+		<td><input type="date" style="width: 200px;"></td>
+			</tr>
+		</table>
+</fieldset>
+<br>
+<fieldset>
+    <legend>PARENTS</legend>
+    <table width="100%">
+        <tr>
+            <td style="text-align: center;">
+                <b>NOM:</b><input type="text" size="40" style="text-align: center;">
+                <b>PRENOM:</b><input type="text" size="40" style="text-align: center;">
+                <b>FONCTION:</b><input type="text" size="40" style="text-align: center;">
+            </td>
+        </tr>
+		<tr>
+			<th>TYPE DE TYPE DE:<</th>
+			<td><input type="checkbox" name="type1" value="choix0">choix0</td>
+			<td><input type="checkbox" name="type1" value="choix1">choix1</td>
+			<td><input type="checkbox" name="type1" value="choix2" checked>choix2</td>
+			<td><input type="checkbox" name="type1" value="choix3">choix3</td>
+        </tr>
+	</table > 
+</fieldset>
+<br>
+<fieldset>
+    <legend>INFORMATIONS</legend>
+    <table width="100%">
+        <tr>
+            <td><b>VOTRE MOYENNE:</b></td>
+            <td><input type="text" size="30"></td>
+            <td><b>VOTRE CLASSEMENT:</b></td>
+            <td><input type="text" size="30"></td>
+        </tr>
+        <tr>
+           <td><b>VOTRE VILLE PREFEREE:</b></td>
+            <td>
+                <select name="ville">
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="Marrakech">Marrakech</option>
+                    <option value="Fes">Fes</option>
+                </select>
+            </td>
+            <td><b>VOTRE COULEUR PREFEREE:</b></td>
+            <td><input type="color"></td>
+        </tr>
+    </table>
+</fieldset>
+<br>
+<table width="100%">
+	<tr>
+		<td valign="top"><b>VOTRE MESSAGE</b></td>
+		<td><textarea name="comm" rows=10 cols=50 >Tapez votre message ici</textarea></td>
+		<td valign="bottom"><input type="file" id="fileInput" name="fileInput"></td>
+	</tr>
+</table>
+<br>
+<fieldset>
+	<legend>APRES INSCRIPTION</legend>
+		<table width="100%">
+			<tr>
+		<td><b>LOGIN:</></td>
+		<td><input type="text" size="40" disabled></td>
+		<td><b>MOT DE PASSE:</b></td>
+		<td><input type="password" name="pass" size="40" disabled></td>
+		<td><b>CHOIX DU GROUPE:</b></td>
+		<td><select name="groupe" disabled>
+                    <option value="TDI1A">TDI1A</option>
+                    <option value="TDI2A">TDI2A</option>
+                    <option value="TDI3A">TDI3A</option>
+                    <option value="TDI4A">TDI4A</option>
+                </select>
+		</td>
+			</tr>
+		</table>
+</fieldset>
+<br>
+<div style="text-align: right;">
+    <input type="reset" value="EFFACER">
+    <input type="submit" value="ENVOYER">
+    <input type="button" value="MODIFIER">
+</div>
+</form>
+</body>
+</html>

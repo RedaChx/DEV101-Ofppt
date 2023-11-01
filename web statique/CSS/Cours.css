@@ -1,0 +1,39 @@
+p {
+    color: blue;
+    background-color: red;
+    font-size: 30px ;
+    font: Roboto ;
+    }
+.rouge {
+    color: red;
+    text-align: center;
+    }
+#bleu {
+        color: rgb(255, 221, 0);
+        text-align: center;
+        }
+#par1
+        {
+        text-align: center;
+        color: rgb(204, 0, 255);
+        font-family: arial
+        }
+#par2
+        {
+        text-align: right;
+        color: rgb(128, 126, 0);
+        font-family: verdana
+        }
+p {
+    background-color: yellow;
+    }
+b {
+    background-color: magenta;
+    }
+article ~ p{
+        color:red;
+        background-color: gold;
+    }
+h3 em {
+    color: rgb(204, 0, 255);
+    }
