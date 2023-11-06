@@ -28,11 +28,19 @@ h1 {
     color: blue;
     border-bottom: color: red: ;
 }
+u{
+    color: blue;
+    text-decoration: underline red;
+}
 section {
     height: 50vh;
 }
 #form input {
     margin-bottom: 16px;
+}
+#form input[type="radio"]{
+    font-size: 18px;
+    margin-left: 10px;
 }
 #form select {
     margin-bottom: 15px;

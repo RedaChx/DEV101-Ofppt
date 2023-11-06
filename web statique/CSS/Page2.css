@@ -1,57 +1,68 @@
-*
-{
-    margin: 0;
+*{
+    margin: 0%;
     box-sizing: border-box;
 }
-
-body
-{
-    background-color: rgb(198, 198, 28);
+body{
+    background-color: rgb(206, 213, 14);
+    height: 100vh;
+}
+header{
+    height: 15%;
+}
+.head h1 {
+    text-align: center;
+    color: rgb(80, 9, 152);
     margin: 0;
+    line-height: 15vh;
 }
 
-h1
-{
-    color: purple;
-    text-align: center;
-    height: 20vh;
+section{
+    height: 70%;
+    
 }
-
-#nav
-{
+article{
+    width: 80%;
+    height: 100%;
     float: left;
-    width: 80vw;
-    text-align: center;
-    color: purple;
-    height: 75vh;
+}
+.art p {
+    line-height: 7vh;
+    color: rgb(80, 9, 152);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    font-size: larger;
 }
 
-#article
-{
-    float: right;
-    width: 10vw;
-    margin-right: 1vw;
-    height: 75vh;
+nav{
+    width: 20%;
+    height: 100%;
+    float: left;
 }
-
-.labels
-{
+.nav div {
+    line-height: 5vh;
+    margin: 15px;
+    color: blue;
     background-color: white;
-    color: rgb(8, 8, 14);
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    background-size: 120px; 
+    border-right: 20px solid;
     border-color: black;
-    border-right-width: 1vw;
-    border-style: none;
-    border-right-style: solid;
+    padding: 0;
 }
 
-#footer
-{
-    background-image: image();
-    clear: both;
+footer{
+    height: 15%;
+}
+.foot p {
+    line-height: 5vh;
     text-align: center;
+    color: blue;
+    font-size: large;
+    background-color: aliceblue;
+    background-size: 120px; 
+    border-right: 20px solid;
+    border-color: black;
     margin-right: 1%;
-    height: 5vh;
-    margin-bottom: 0;
+    margin-left: 1%;
 }
