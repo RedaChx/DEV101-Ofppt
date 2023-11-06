@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 213, 14);
+    height: 100vh;
+}
+header{
+    height: 15%;
+}
+.head h1 {
+    text-align: center;
+    color: rgb(80, 9, 152);
+    margin: 0;
+    line-height: 15vh;
+}
+
+section{
+    height: 70%;
+    
+}
+article{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.art p {
+    line-height: 7vh;
+    color: rgb(80, 9, 152);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+    font-size: larger;
+}
+
+nav{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.nav div {
+    line-height: 5vh;
+    margin: 15px;
+    color: blue;
+    background-color: white;
+    background-size: 120px; 
+    border-right: 20px solid;
+    border-color: black;
+    padding: 0;
+}
+
+footer{
+    height: 15%;
+}
+.foot p {
+    line-height: 5vh;
+    text-align: center;
+    color: blue;
+    font-size: large;
+    background-color: aliceblue;
+    background-size: 120px; 
+    border-right: 20px solid;
+    border-color: black;
+    margin-right: 1%;
+    margin-left: 1%;
+}
