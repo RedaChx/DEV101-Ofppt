@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(199, 216, 226);
+}
+
+header {
+    height: 10%;
+    background-color: #330066;
+}
+
+#logo {
+    width: 15%;
+    height: 100%;
+    margin-right: 5%;
+    float: left;
+    
+}
+#logo p{
+    font-size: larger;
+    color: yellow;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.image{
+    margin-top: 7px;
+    margin-left: 50px;
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+#nav {
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    float: left;
+    font-size: larger;
+    color: white;
+    margin-top: 30px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav li{
+    margin-right: 30px;
+}
+a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+#cont {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+#cont p{
+    margin-right: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-size: x-large;
+    background-color: rgb(255,100,149);
+    line-height: 5vh;
+    border-radius: 30px;
+}
+section {
+    height: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#art1 {
+    height: 40%;
+    width: 100%;
+}
+
+#art1 div {
+    margin-left: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 75%;
+    height: 100%;
+    float: left;
+    font-size: x-large;
+    color: #330066;
+}
+#art1 img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+#btnM{
+    background-color: rgb(255,100,149);
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+}
+#art2 {
+    height: 55%;
+    width: 100%;
+    background-color:  rgb(255,100,149);
+    color: white; 
+    border-radius: 20px;
+    text-align: left;
+    justify-items: left;
+}
+#art2 p{
+    text-align: left;
+    font-size: xx-large;
+}
+#art2 ul li{
+    margin-left: 50px;
+
+}
+footer {
+    height: 13%;
+    width: 95%;
+    background-color: #330066;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: white;
+}
+.text1{
+    margin-left: 50px;
+}
+.text2{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
