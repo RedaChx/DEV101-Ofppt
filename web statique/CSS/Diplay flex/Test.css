@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+    margin-bottom: 3px;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-top: 17px;
+}
+section{
+    background-color: yellowgreen;
+    display:flex;
+}
+#art1{
+    order: 2;
+    flex: 1;
+    background-color: goldenrod;
+    margin: 5px;
+}
+#art2{
+    order: 3;
+    flex: 1;
+    background-color: firebrick;
+    margin: 5px;
+}
+#art3{
+    order: 1;
+    flex: 2;
+    background-color: royalblue;
+    margin: 5px;
+}
